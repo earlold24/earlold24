@@ -1,0 +1,85 @@
+.react-aside {
+  min-height: 100vh;
+  height: 100%;
+  max-width: 600px;
+  width: 100%;
+  background-color: #2b2f3e;
+  padding: 10px; }
+  .react-aside h2 {
+    color: white; }
+  .react-aside div {
+    color: #5b5d63; }
+
+.react-items {
+  min-width: 500px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+  .react-items h1 {
+    text-align: left;
+    font-weight: normal;
+    color: gray; }
+  .react-items-input-group {
+    margin: 10px 0;
+    display: flex; }
+    .react-items-input-group .form-control {
+      margin: 0 10px; }
+  .react-items .active-item {
+    border-left: 4px solid deeppink; }
+  .react-items .badge {
+    position: absolute;
+    right: 110px; }
+
+.react-comment .card {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: none;
+  margin: 10px; }
+  .react-comment .card pre {
+    text-align: left;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-width: 400px; }
+  .react-comment .card-body {
+    padding: 0 0 0 10px; }
+
+.react-comment .card-color {
+  width: 50px;
+  height: 50px; }
+
+.react-comments {
+  min-width: 500px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75); }
+  .react-comments h1 {
+    text-align: left;
+    font-weight: normal;
+    color: gray;
+    margin-bottom: 20px; }
+  .react-comments form {
+    margin-top: 20px;
+    display: flex; }
+    .react-comments form input[type=color] {
+      width: 100px;
+      height: 60px; }
+    .react-comments form textarea {
+      margin: 0 10px; }
+    .react-comments form button {
+      max-height: 90px; }
+
+.react-main {
+  margin-top: 20px; }
+
+.react-app {
+  text-align: center;
+  color: #353535;
+  font-size: 16px;
+  line-height: 1.6em;
+  background-color: #f9f9f9; }
+
